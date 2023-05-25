@@ -86,7 +86,7 @@ Some common regular expression patterns that contain positive character classes 
 |`[ae]`|Match either an "a" or an "e".|  
 |`y\s`|Match the literal character "y" followed by a white-space character.|  
 |`\S+?`|Match one or more non-white-space characters, but as few as possible.|  
-|`[\s\p{P}]`|Match either a white-space character or a punctuation mark.|  
+|`[\s|\p{P}]`|Match either a white-space character or a punctuation mark.|  
   
  The following example matches words that begin with any capital letter. It uses the subexpression `[A-Z]` to represent the range of capital letters from A to Z.  
   
